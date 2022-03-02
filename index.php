@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 
 <body>
@@ -239,7 +240,7 @@
 
     <footer class="gradient">
         <div class="container-fluid text-center">
-            <span>Made with <3 by <a href="https://mdbootstrap.com">Stanley</a></span>
+            <span>Made with <i class='far fa-grin'></i> by <a href="#">Stanley</a></span>
         </div>
     </footer>
     <script src="js/bootstrap.min.js"></script>
