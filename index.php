@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Davis&Shirtlift
+    </title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
@@ -30,10 +31,10 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#table">Tabular</a>
+                        <a class="nav-link" href="table.php">Tabular</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#graph">Graphical</a>
+                        <a class="nav-link" href="graph.php">Graphical</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="raw_cumulative.php">Raw cumulative</a>
@@ -69,180 +70,86 @@
         </svg>
     </header>
 
-
-    </section>
-    
-    <section class="icons" id="table">
-        <div class="container">
-            <div class="row text-center">
-             <style>
-               tr th {color:white;}
-            </style> 
-             <div class="col-md-20">
-                    <h1>Tabular Representation of sql Data</h1>
-                    <p>
-                   
-                </div>
-                    <table class="table">
-                        <thead class="gradient">
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>@twitter</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <table class="table center">
-                        <thead class="thead-light">
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>@twitter</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                
-
-
+    <section class="icons">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="icon gradient mb-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-layers"
+              >
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
             </div>
+            <h3>Water Pumps</h3>
+            <p>
+            Dayliff Pedrollo Grundfos Davey DAB Rovatti Pompe
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class=" icon gradient mb-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-smartphone"
+              >
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3>Borehole Pumps</h3>
+            <p class="mb-0">
+            Dayliff Pedrollo Grundfos Rovatti Pompe
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="icon gradient mb-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-code"
+              >
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3>Solar Solutions</h3>
+            <p class="mb-0">
+            Solar Panels & Support Structures Solar Water Heaters Inverters / Backup Systems Solar Pumps and Controls Accessories.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
-
-    <section class="gallery" id="graph">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 160">
-            <path fill="#fff" fill-opacity="1"
-                d="M0,128L120,128C240,128,480,128,720,122.7C960,117,1200,107,1320,101.3L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
-            </path>
-        </svg>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10">
-                    <h1>Graphical Representation of sql Data</h1>
-                    <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s.
-                    </p>
-                </div>
-            </div>
-            <div class="row my-3 g-3">
-            <table class="table">
-                        <thead class="gradient">
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>@twitter</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <table class="table center">
-                        <thead class="thead-light">
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>@twitter</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                
-
-
-            </div>
-            
-        </div>
-      
-    </section>
-
-
 
     <footer class="gradient m-5">
         <div class="container-fluid text-center">
-            <span>Made with <i class='far fa-grin'></i> by <a href="#">Stanley</a></span>
+            <span>Made with <i class='far fa-grin'></i> by Stanley</span>
         </div>
     </footer>
     <script src="js/bootstrap.min.js"></script>
