@@ -35,11 +35,18 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#graph">Graphical</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Raw cumulative</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Grouped cumulative</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="page-header gradient">
+    <section>
+    <header class="page-header gradient" >
         <div class="container pt-3">
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-5">
