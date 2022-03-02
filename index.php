@@ -233,19 +233,14 @@
 
 
             </div>
-            <div class="row mt-5 justify-content-end">
-            </div>
+            
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#fff" fill-opacity="1"
-                d="M0,128L120,128C240,128,480,128,720,122.7C960,117,1200,107,1320,101.3L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-            </path>
-        </svg>
+      
     </section>
 
 
 
-    <footer class="gradient">
+    <footer class="gradient m-5">
         <div class="container-fluid text-center">
             <span>Made with <i class='far fa-grin'></i> by <a href="#">Stanley</a></span>
         </div>
