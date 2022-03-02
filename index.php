@@ -36,10 +36,10 @@
                         <a class="nav-link" href="#graph">Graphical</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Raw cumulative</a>
+                        <a class="nav-link" href="raw_cumulative.php">Raw cumulative</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Grouped cumulative</a>
+                        <a class="nav-link" href="grouped_cumulative.php">Grouped cumulative</a>
                     </li>
                 </ul>
             </div>
